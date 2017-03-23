@@ -71,9 +71,9 @@ Some terminals do not support italic, cf. [#3][issue_3].
 If your terminal does support _italic_, you can set the `g:one_allow_italics` variable to 1 in your `.vimrc` or `.config/nvim/init.vim`:
 
 ```vim
-set background=light        " for the light version
 let g:one_allow_italics = 1 " I love italic for comments
 colorscheme one
+set background=light        " for the light version
 ```
 
 iTerm2 can support italic, follow the instructions given in this [blog post by Alex Pearce](https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/).
